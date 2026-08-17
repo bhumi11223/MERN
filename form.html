@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Advance Form</title>
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend><b>Practice Advance Form</b></legend>
+
+            
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+            <label for="link">Link</label>
+            <input type="url" id="link" name="link">
+            <br><br>
+            <label for="mobile">Mobile No:</label>
+            <input type="tel" id="mobile" name="mobile">
+            <br><br>
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file">
+            <br><br>
+            <fieldset>
+                <legend>Select your gender</legend>
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+            </fieldset>
+
+            <br>
+            <label>Skills:</label>
+            <br>
+
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <br><br>
+            <label for="country">Select country:</label>
+
+            <select id="country" name="country">
+                <option value="IND">IND</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="CAN">Canada</option>
+            </select>
+
+            <br><br>
+            <label for="stack">
+                Select Stack which you are currently working on:
+            </label>
+
+            <select id="stack" name="stack">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select>
+
+            <br><br>
+            <label for="skills">
+                Select your skills:
+            </label>
+
+            <br>
+
+            <select id="skills" name="skills" multiple size="4">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select>
+
+            <br><br>
+            <textarea
+                name="thought"
+                rows="5"
+                cols="40"
+                placeholder="Enter your thought......"></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
